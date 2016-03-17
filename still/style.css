@@ -1,0 +1,143 @@
+body{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal;
+	color:#333333;
+	background:#333333;	
+	padding:0;
+	margin:0;
+}
+
+.SiteUst{
+	width:100%;
+	height:105px;
+	background:url(ustbg.png) repeat-x left top;	
+}
+.SiteUst .SiteUstIc{
+	width:1000px;
+	height:105px;
+	margin:0px auto;
+}
+
+.SiteUst .SiteUstIc .LogoBolge{
+	width:1000px;
+	height:70px;
+	margin:0;	
+}
+.SiteUst .SiteUstIc .LogoBolge .Logo{
+	width:200px;
+	height:40px;
+	float:left;	
+	margin:10px;
+}
+
+.SiteUst .SiteUstIc .LogoBolge .Giris{
+	width:350px;
+	height:25px;
+	float:right;
+	background:#EEEEEE;
+	border-radius:0 0 5px 5px;
+}
+
+.SiteUst .SiteUstIc .LogoBolge .Giris a.Hosgeldin{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333333;
+	padding:0 10px;
+	line-height:25px;	
+	text-decoration:none;	
+	display:block;
+	float:left;
+	background:url(user.png) no-repeat 10px center;
+	padding-left:30px;
+}
+
+.SiteUst .SiteUstIc .LogoBolge .Giris a.Cikis{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333333;
+	padding:0 10px;
+	line-height:25px;	
+	text-decoration:none;	
+	background:url(lock.png) no-repeat left center;
+	display:block;
+	float:left;
+	padding-left:20px;
+}
+
+.SiteUst .SiteUstIc .Menubar{
+	width:1000px;
+	height:30px;
+}
+
+.SiteUst .SiteUstIc .Menubar a{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#FFFFFF;
+	font-weight:bold;
+	display:block;
+	float:left;	
+	line-height:27px;
+	padding-right:30px;
+	text-decoration:none;
+	background:url(abg.png) no-repeat left center;
+	padding-left:15px;
+}
+
+.SiteOrta{
+	width:100%;
+	height:auto;
+}
+
+.SiteOrta .SiteOrtaIc{
+	width:1000px;
+	height:auto;
+	background:#FFFFFF;	
+	margin:10px auto 0 auto;
+}
+
+.Icerik{
+	font-size:25px;
+	font-weight:bold;
+	color:#333333;
+	height:400px;
+	line-height:400px;
+	text-align:center;
+	width:960px;	
+}
+
+.SiteAlt{
+	width:1000px;
+	height:150px;
+	background:url(altkisimbg.png) repeat-x left top;	
+	margin:0 auto;
+}
+.SiteAlt .HizliErisim{
+	width:750px;
+	height:150px;
+	float:left;
+	margin:10px;
+}
+.SiteAlt .HizliErisim .Baslik{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	display:block;
+	margin-bottom:10px;
+	margin-left:10px;	
+}
+.SiteAlt .HizliErisim .Baglanti a{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	padding:0 10px;	
+	color:#000000;
+}
+.SiteAlt .SosyalMedya{
+	width:200px;
+	height:150px;
+	float:right;
+	margin:15px;
+	
+}

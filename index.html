@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AGB Dekorasyon</title>
+
+<link href="still/style.css" rel="stylesheet" type="text/css" />
+<link href="still/genelslider.css" type="text/css" rel="stylesheet" />
+
+	<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="js/slides.min.jquery.js"></script>
+
+<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'still/loading.gif',
+				play: 10000,
+				pause: 1000,
+				hoverPause: false,
+				animationStart: function(current){
+					$('.caption').animate({
+						bottom:-35
+					},100);
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationStart on slide: ', current);
+					};
+				},
+				animationComplete: function(current){
+					$('.caption').animate({
+						bottom:0
+					},200);
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationComplete on slide: ', current);
+					};
+				},
+				slidesLoaded: function() {
+					$('.caption').animate({
+						bottom:0
+					},200);
+				}
+			});
+		});
+</script>
+
+</head>
+
+<body>
+
+<div class="SiteUst">
+	<div class="SiteUstIc">
+    	<div class="LogoBolge">
+        	<div class="Logo"><img src="still/agbdekorasyon.png" /> </div>
+            <div class="Giris">
+            	<a class="Hosgeldin" href="#">Merhaba agbdekorasyon.com'a Hoşgeldiniz.</a>
+                <a class="Cikis" href="#">Çıkış</a>
+            </div>
+        </div>
+        <div class="Menubar">
+        	<a href="index.html">Anasayfa</a>
+        	<a href="hakkimizda.html">Hakkımızda</a>
+        	<a href="urunler.html">Ürünler</a>
+        	<a href="fiyatlistesi.html">Fiyat Listesi</a>
+        	<a href="referans.html">Referanslar</a>
+        	<a href="iletisim.html">İletişim</a>
+        </div>
+    </div>
+</div>
+
+<div class="SiteOrta">
+	<div class="SiteOrtaIc">
+		<div id="container">
+		<div id="example">
+			<div id="slides">
+				<div class="slides_container">
+					<div class="slide"><a href="#"><img src="img/slide1.jpg"></a></div>
+					<div class="slide"><a href="#"><img src="img/slide2.jpg"></a></div>
+					<div class="slide"><a href="#"><img src="img/slide3.jpg"></a></div>
+					<div class="slide"><a href="#"><img src="img/slide4.jpg"></a></div>
+					<!--<div class="slide"><a href="#"><img src="img/slide-1.jpg" alt="Slide 1"></a>
+						<div class="caption" style="bottom:0"><p>Happy Bokeh Thursday!</p></div>
+					</div>-->
+				</div>
+				<a href="#" class="prev"></a>
+				<a href="#" class="next"></a>
+			</div>
+		</div>        
+        </div>
+    </div>
+</div>
+
+<div class="SiteAlt">
+	<div class="HizliErisim">
+    	<span class="Baslik">Hızlı Erişim</span>
+        <span class="Baglanti">
+        	<a href="index.html">Anasayfa</a>
+        	<a href="hakkimizda.html">Hakkımızda</a>
+        	<a href="urunler.html">Ürünler</a>
+        	<a href="fiyatlistesi.html">Fiyat Listesi</a>
+        	<a href="referans.html">Referanslar</a>
+        	<a href="iletisim.html">İletişim</a>
+        </span>
+    </div>
+    <div class="SosyalMedya">
+    	<a href="#"><img src="still/facebook.png" /></a>
+    	<a href="#"><img src="still/twitter.png" /></a>
+    </div>
+</div>
+
+</body>
+</html>
